@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:set var="speed" value="63" />
+	<c:set var="speed" value="62" />
 	<c:if test="${speed>=55}"/>
    <c:out value="yes" />
 	
