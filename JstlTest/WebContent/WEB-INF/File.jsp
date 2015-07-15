@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:set var="salary" scope="session" value="${2000-3000}" />
+	<c:set var="salary" scope="session" value="${2000*2}" />
 	<p>
 		Your salary is :
 		<c:out value="${salary}" />
