@@ -9,7 +9,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:set var="salary" scope="session" value="${2000-3000}" />
+	<c:set var="salary" value="${2000-3000}" />
+	<c:if test="${salary == -1000}">
+		<b style="color:gray">${salary}</b>
+	</c:if>
 	<p>
 		Your salary is :
 		<c:out value="${salary}" />
