@@ -11,7 +11,7 @@
 </head>
 <body>
 	<c:if test="${fn:contains('captester', 'test')}">
-	yes
+	yes 
 	</c:if>
 </body>
 </html>
